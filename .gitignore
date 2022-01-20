@@ -6,3 +6,4 @@
 README
 platformio.ini
 extensions.json
+c_cpp_properties.json
