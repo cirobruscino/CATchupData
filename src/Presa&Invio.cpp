@@ -9,7 +9,6 @@
 //#include "arduino_secrets.h"
 
 
-
 // Dati WIFI
 char ssid[] = "";
 char pass[] = "";
