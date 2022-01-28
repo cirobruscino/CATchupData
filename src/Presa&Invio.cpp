@@ -78,7 +78,6 @@ void setup()
   response2 = client.responseBody();
 
   IndiceSeparatore = response.indexOf(".");
-  StrTimestampMicros = response.substring(IndiceSeparatore+1);
   TimestampMicros = response.substring(IndiceSeparatore+1).toInt();
   TimestampSeconds = response.substring(0, IndiceSeparatore).toInt();
 
