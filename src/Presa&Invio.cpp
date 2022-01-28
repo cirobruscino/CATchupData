@@ -80,8 +80,7 @@ void setup()
   TimestampMicros = response.substring(IndiceSeparatore+1).toInt();
   TimestampSeconds = response.substring(0, IndiceSeparatore).toInt();
 
-  Udp.begin(localPort);
-  
+  Udp.begin(localPort);  
 }
 
 void loop() 
