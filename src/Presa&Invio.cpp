@@ -8,7 +8,6 @@
 #include <WiFiUdp.h>
 //#include "arduino_secrets.h"
 
-
 // Dati WIFI
 char ssid[] = "";
 char pass[] = "";
