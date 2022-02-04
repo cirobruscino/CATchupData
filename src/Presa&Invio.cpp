@@ -10,7 +10,6 @@
 //#include "arduino_secrets.h"
 
 
-
 // Dati WIFI
 char ssid[] = "TIM-27310011";
 char pass[] = "Zaccheroni4";
