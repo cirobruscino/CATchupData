@@ -7,12 +7,12 @@
 #include <ArduinoHttpClient.h>
 #include <WiFiNINA.h>
 #include <WiFiUdp.h>
-//#include "arduino_secrets.h"
+#include "arduino_secrets.h"
 
 
 // Dati WIFI
-char ssid[] = "TIM-27310011";
-char pass[] = "Zaccheroni4";
+char ssid[] = "";
+char pass[] = "";
 char Text[] = "Ciao a tutti";
 
 const char serverName[] = "192.168.1.211";  // server name
